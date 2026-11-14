@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Discord-client-08080A?style=flat-square&logo=discord&logoColor=white" alt="Discord">
   <img src="https://img.shields.io/badge/JavaScript-un%20seul%20fichier-4CD42C?style=flat-square&logo=javascript&logoColor=white" alt="Un seul fichier JavaScript">
   <img src="https://img.shields.io/badge/stockage-100%25%20local-08080A?style=flat-square" alt="Stockage 100 % local">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-utilisation%20seule-4CD42C?style=flat-square" alt="Licence : utilisation seule"></a>
 </p>
 
 **psa** est un plugin **BetterDiscord** qui tient un registre privé des comptes Discord qui t'intéressent : une
@@ -36,6 +37,7 @@ croises et range tes propres comptes dans un **coffre chiffré**.
 | 💾 [Réglages et sauvegardes](#-réglages-et-sauvegardes) | interrupteurs, backup, exports |
 | 🧠 [Sous le capot](#-sous-le-capot) | stockage, dédoublonnage, chiffrement |
 | 📁 [Fichiers](#-fichiers) | ce qu'il y a dans le dépôt |
+| 📜 [Licence](#-licence) | installer et utiliser, sans modifier |
 
 ---
 
@@ -47,7 +49,7 @@ croises et range tes propres comptes dans un **coffre chiffré**.
 3. Active **psa** dans **Paramètres → Plugins**. Le dossier `%AppData%\BetterDiscord\data\psa\` se crée tout seul.
 4. Pour l'icône du lanceur, copie **`icon.png`** dans ce dossier `data\psa\`. Sans elle, le bouton affiche 🐫.
 
-Pas de build : un seul fichier. Tu le modifies, BetterDiscord le recharge.
+Pas de build : un seul fichier à copier.
 
 **Optionnel : ffmpeg.** Certaines vidéos, comme les `.mov`, ne se lisent pas dans Discord. Si ffmpeg est installé,
 psa les convertit en `.mp4` tout seul. Il le cherche dans le `PATH` et dans les paquets WinGet :
@@ -291,6 +293,14 @@ supprime jamais un fichier unique.
 | [`docs/banner.svg`](docs/banner.svg) | la bannière |
 
 Tes fiches, tes médias et ton coffre restent dans `%AppData%\BetterDiscord\data\` et ne font pas partie du dépôt.
+
+---
+
+## 📜 Licence
+
+© 2026 ninoelhaj, tous droits réservés. Tu peux installer et utiliser psa gratuitement, et régler tout ce que le
+plugin propose. Tu ne peux pas modifier le code, le reprendre dans un autre projet, le redistribuer ni le vendre.
+Un bug ou une idée : ouvre une issue. Tout est dans [LICENSE](LICENSE).
 
 ---
 
