@@ -1,0 +1,45 @@
+# Données perso du plugin : fiches, médias, avatars, serveurs, sauvegardes
+fiches/
+servers/
+pfp/
+pfp-export/
+blobs/
+media/
+backups/
+psa_media/
+psa_backups/
+psa-backup-*.json
+psa-usernames.txt
+psa-dbg-*.txt
+*.json
+!package.json
+
+# Coffre des comptes, jetons, clés, listes privées
+psa.sec/
+vault.json
+*.vault
+*.token
+token*.txt
+tokens*
+proxies*.txt
+.env
+.env.*
+*.pem
+*.key
+
+# Config BetterDiscord et caches
+*.config.json
+node_modules/
+release/
+dist/
+*.log
+*.tmp
+*.bak
+*.bak-*
+
+# Système et éditeurs
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
