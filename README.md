@@ -15,6 +15,12 @@
 sa présence. Il garde aussi les images et vidéos supprimées sur tes serveurs, archive les photos de profil que tu
 croises et range tes propres comptes dans un **coffre chiffré**.
 
+<p align="center">
+  <img src="docs/captures/serveurs.png" alt="Le dashboard psa, section Serveurs" width="100%">
+  <br>
+  <sub>Captures réelles du plugin dans Discord. Noms, avatars, identifiants et tokens floutés.</sub>
+</p>
+
 > [!NOTE]
 > **Tout reste sur ta machine**, dans `%AppData%\BetterDiscord\data\psa\`. Pas de bot, pas de serveur, rien n'est
 > envoyé ailleurs. Le plugin ne voit que ce que ton compte reçoit déjà.
@@ -65,6 +71,8 @@ winget install Gyan.FFmpeg
 Le bouton **psa** se pose à côté de la roue des paramètres, en bas à gauche de Discord. Au premier clic de la
 session, le logo s'anime puis le dashboard s'ouvre ; un clic sur l'animation la passe.
 
+<p align="center"><img src="docs/captures/vue-ensemble.png" alt="Vue d'ensemble du dashboard" width="100%"></p>
+
 | Section | Ce qu'elle montre |
 |---|---|
 | **Vue d'ensemble** | 6 compteurs (fiches, médias, notes, supprimés, édités, stockage) et les fiches récentes |
@@ -92,6 +100,8 @@ Une fiche s'ouvre ou se remplit depuis un clic droit :
 | un message | **View author fiche** | ouvre la fiche de l'auteur |
 
 Le profil Discord d'un utilisateur gagne aussi un onglet **Fiche**, à côté d'Activité et Serveurs en commun.
+
+<p align="center"><img src="docs/captures/fiches.png" alt="La liste des fiches" width="100%"></p>
 
 | Partie de la fiche | Contenu |
 |---|---|
@@ -138,6 +148,12 @@ psa archive les **photos de profil** des gens que tu croises : auteurs de messag
 - Recherche, tri **Récent / A–Z**, visionneuse plein écran.
 - Un avatar déjà archivé n'est pas repris, même s'il revient sous un autre lien. Jusqu'à 5 000 avatars.
 
+<p align="center">
+  <img src="docs/captures/avatars.png" alt="La galerie des avatars" width="100%">
+  <br>
+  <sub>Avatars floutés sur la capture.</sub>
+</p>
+
 ---
 
 ## 🔐 Comptes
@@ -156,6 +172,13 @@ Un coffre pour **tes propres comptes** Discord, verrouillé par une phrase secr�
 | **verrouillé** | le token marche, mais Discord demande une vérification | bouton jaune **GUIDE** : les étapes officielles pour déverrouiller |
 | **banni** | Discord a désactivé le compte | bouton jaune **GUIDE** : le formulaire d'appel officiel |
 | **mort** | token invalide, après une déconnexion ou un changement de mot de passe | **Retirer les morts** |
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/captures/comptes-verrouille.png" alt="Le coffre verrouillé" width="100%"><br><sub><b>Verrouillé</b> : la phrase secrète</sub></td>
+    <td align="center"><img src="docs/captures/comptes.png" alt="Le coffre ouvert" width="100%"><br><sub><b>Ouvert</b> : tes comptes</sub></td>
+  </tr>
+</table>
 
 <details>
 <summary><b>Le coffre en détail</b></summary>
@@ -177,6 +200,8 @@ L'ancien plugin séparé `psa.sec` est fusionné dans psa : même coffre, même 
 ---
 
 ## 💾 Réglages et sauvegardes
+
+<p align="center"><img src="docs/captures/reglages.png" alt="Les réglages : sauvegardes et diagnostics" width="100%"></p>
 
 | Interrupteur | Par défaut | Rôle |
 |---|---|---|
@@ -291,6 +316,7 @@ supprime jamais un fichier unique.
 | [`psa.plugin.js`](psa.plugin.js) | le plugin, tout en un : fiches, logger, serveurs, avatars, coffre, dashboard |
 | [`icon.png`](icon.png) | l'icône du lanceur, à copier dans `data\psa\` |
 | [`docs/banner.svg`](docs/banner.svg) | la bannière |
+| [`docs/captures/`](docs/captures) | les captures du README |
 
 Tes fiches, tes médias et ton coffre restent dans `%AppData%\BetterDiscord\data\` et ne font pas partie du dépôt.
 
